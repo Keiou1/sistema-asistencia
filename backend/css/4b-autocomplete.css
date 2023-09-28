@@ -1,0 +1,28 @@
+/* (A) AUTOCOMPLETE WRAPPER */
+.acWrap {
+  display: inline-block; /* Or block if you like */
+  position: relative;
+}
+
+/* (B) SUGGESTIONS */
+.acWrap .acSuggest {
+  position: absolute;
+  top: 100%; left: 0;
+  z-index: 9;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  display: none;
+}
+.acWrap .acSuggest {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.acWrap .acSuggest li {
+  padding: 10px;
+}
+.acWrap .acSuggest li:hover {
+  background: #d9e7ff;
+  cursor: pointer;
+}

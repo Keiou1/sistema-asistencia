@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #ccd7e7;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(56,56,56);
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.img-inicio{
+    width: 200px;
+    height: 200px;
+}
+#fecha{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.container{
+    width: 600px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.acceso{
+    color: #1465bb;
+}
+.dni{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.entrada{
+    background: #1465bb;
+    width: 30%;
+    padding: 20px 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: x-large;
+}
+.salida{
+    background: #1465bb;
+    width: 30%;
+    padding: 20px 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    font-size: x-large;
+}
